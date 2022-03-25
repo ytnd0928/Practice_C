@@ -123,7 +123,7 @@ int main(void)
 
     //%s→変換子指定→文字列を表示
 
-    printf("氏名" : %s\n", name);
+    printf("氏名" : "%s\n", name);
     printf("%s\n", "科目1", kamokuName[0]);
     printf("%s\n", "科目2", kamokuName[1]);
     printf("%s\n", "科目3", kamokuName[2]);
@@ -137,3 +137,15 @@ int main(void)
 
 
 
+/*---------------------------------------------------
+                文字列とprintf関数の書式指定
+-----------------------------------------------------*/
+
+#include <stdio.h>
+
+int main (void)
+
+{
+    int age = 20;
+    char 
+}
