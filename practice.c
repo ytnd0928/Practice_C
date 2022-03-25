@@ -191,3 +191,22 @@ int main(void)
     printf("%d / %.0f = %.1f\n" , xi, yd, xi / yd);
 }
 //xiはdouble型に変換されて閣下もdouble方に変わる
+
+
+/*---------------------------------------------------
+             キャスト演算子
+             (型名)オペランド
+-----------------------------------------------------*/
+
+int main(void )
+{
+    int i1 = 5 , i2 = 2;
+    double x1 = 5.5 , x2 = 2.0;
+
+    printf("&d / %d = %d\n", i1, i2, i1 / i2); //int型 / int型　→結果もint型  5 / 2 = 2
+    printf("%d / %d = %f\n", i1, i2, (double)i1 / i2); // doduble型に変換　/ int型　→　double型　　5 / 2 = 2.5000
+    printf("%f / %d = %d\n", x1, i2, (int)x1 / i2); // int型に変換　/ int型　→　int型　　5.5000 / 2 = 2
+
+    //演算の結果をint型にキャスト
+    printf("%f / %d = %d\n", x1, i2, (int)(x1 / i2)); //double型 /　int型　→　結果をin型に変換　　　5.50000 / 2 = 2
+}
