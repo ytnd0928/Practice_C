@@ -122,4 +122,5 @@ int main(void)
     printf("氏名" : %s\n", name);
     printf("%s\n",n"科目1", kamokuName[0]);
 }
-feorijferofer
+
+
