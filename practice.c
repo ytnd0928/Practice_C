@@ -141,11 +141,16 @@ int main(void)
                 文字列とprintf関数の書式指定
 -----------------------------------------------------*/
 
+//printf関数では表示したい文字を""で囲っていたが、この部分をchar型配列に納め%sに対応させることも可能
 #include <stdio.h>
 
 int main (void)
 
 {
     int age = 20;
-    char 
+    char form1[]="MynameIsTaro.\n"; //書式を配列に初期化
+    char form2[] = "年齢:%d歳\n"; //書式を配列に初期化
+
+    printf(form1)
+    printf(form2,age)
 }
