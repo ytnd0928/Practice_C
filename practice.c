@@ -120,7 +120,16 @@ int main(void)
     //表示
 
     printf("氏名" : %s\n", name);
-    printf("%s\n",n"科目1", kamokuName[0]);
+    printf("%s\n", "科目1", kamokuName[0]);
+    printf("%s\n", "科目2", kamokuName[1]);
+    printf("%s\n", "科目3", kamokuName[2]);
 }
+
+//実行結果
+//氏名：山田
+//科目1:国語
+//科目2:数学
+//科目3:英語
+
 
 
