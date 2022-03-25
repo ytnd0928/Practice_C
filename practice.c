@@ -119,6 +119,10 @@ int main(void)
 
     //表示
 
+    //文字列が1次元配列に格納されているときは%sに対応する識別子として配列全体を指定
+
+    //%s→変換子指定→文字列を表示
+
     printf("氏名" : %s\n", name);
     printf("%s\n", "科目1", kamokuName[0]);
     printf("%s\n", "科目2", kamokuName[1]);
